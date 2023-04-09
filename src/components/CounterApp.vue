@@ -21,7 +21,7 @@
     </div>
     <div class="w-full my-0 mx-auto flex justify-center items-center">
       <input
-        class="outline-none bg-slate-400 rounded-full rounded-r-xl"
+        class="outline-none text-4xl text-center font-bold bg-slate-400 rounded-full rounded-r-xl"
         type="number"
         v-model="value"
       />
