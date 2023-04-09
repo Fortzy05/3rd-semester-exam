@@ -6,14 +6,22 @@
       Counter: {{ count }}
     </h2>
     <div class="flex justify-center items-center gap-3 m-2.5">
-      <button class="bg-blue-500 hover:bg-blue-800 font-semibold w-28 h-12 outline-none border-none rounded-lg" @click="decrement">
+      <button
+        class="bg-blue-500 hover:bg-blue-800 font-semibold w-28 h-12 outline-none border-none rounded-lg"
+        @click="decrement"
+      >
         Decrement
       </button>
-      <button class="bg-red-500 hover:bg-red-800 font-semibold w-28 h-12 outline-none border-none rounded-lg" @click="increment">Increment</button>
+      <button
+        class="bg-red-500 hover:bg-red-800 font-semibold w-28 h-12 outline-none border-none rounded-lg"
+        @click="increment"
+      >
+        Increment
+      </button>
     </div>
     <div class="w-full my-0 mx-auto flex justify-center items-center">
       <input
-        class="outline-none rounded-l-xl rounded-r-xl"
+        class="outline-none bg-slate-400 rounded-full rounded-r-xl"
         type="number"
         v-model="value"
       />
@@ -24,7 +32,12 @@
         value="Set Value"
       />
     </div>
-    <button class="bg-green-500 text-center hover:bg-green-800 font-semibold w-24 h-12 outline-none border-none rounded-lg" @click="reset">Reset</button>
+    <button
+      class="bg-green-500 text-center hover:bg-green-800 font-semibold w-24 h-12 outline-none border-none rounded-lg"
+      @click="reset"
+    >
+      Reset
+    </button>
   </div>
 </template>
 <script>
